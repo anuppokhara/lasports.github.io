@@ -1,0 +1,78 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LA Sports Club</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+  <header>
+    <h1>Welcome to LA Sports Club</h1>
+    <nav>
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#registration">Registration</a></li>
+        <li><a href="#donation">Donation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="products">
+    <h2>Products</h2>
+    <p>Browse our selection of football shoes and jerseys.</p>
+    <!-- Add product listings here -->
+    <img src="https://www.ktmcty.com/storage/products/official-player-national-football-home-jersey-5102-3/thumbs/cover_1620364625.jpg" alt="Football Jersey"> <!-- Placeholder for image -->
+<img src="https://img.fruugo.com/product/5/39/795549395_max.jpg" alt="Football Boots"> <!-- Placeholder for image -->
+<img src="https://www.kitking.co.uk/cdn/shop/products/FS0367_HDW_photo_front-center_white_869x869.jpg?v=1628695118" alt="football"> <!-- Placeholder for image -->
+  </section>
+
+  <section id="news">
+    <h2>Football News</h2>
+    <p>Stay updated with the latest developments in the sport.</p>
+    <!-- Add news updates here -->
+  </section>
+
+  <section id="registration">
+    <h2>Join LA Sports Club</h2>
+    <p>Fill out the form below to become a member:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="donation">
+    <h2>Support Us</h2>
+    <p>Help us continue our activities by making a donation:</p>
+    <!-- Add donation feature here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to us for inquiries and further information:</p>
+    <!-- Add contact information here -->
+  </section>
+form action="http://esewa.com.np" method="post" target="_blank">
+  <input type="hidden" name="amt" value="10"> <!-- Change the value to set the donation amount -->
+  <input type="hidden" name="pid" value="LA Sports Club Donation">
+  <input type="hidden" name="scd" value="">
+  <input type="hidden" name="su" value="ANUP KHADKA">
+  <input type="hidden" name="fu" value="PRANAYA RAJ BHANDARI">
+  <button type="submit">Donate via eSewa</button>
+</form>
+  <footer>
+  <p>&copy; 2024 LA Sports Club</p>
+  <img src="C:\Users\Acer\Pictures\ANuppranaya FBG.jpg" alt="Keep Supporting" width="300">
+</footer>
+
+</body>
+</html>
